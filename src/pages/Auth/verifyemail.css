@@ -1,0 +1,87 @@
+.verify-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+ .steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+ }
+
+ .step{
+    color: #aaa;
+ }
+
+ .step.completed {
+    color: #aaa;
+ }
+
+ .step.active{
+    color: black;
+    font-weight: bold;
+ }
+
+ .content h2{
+    margin-bottom: 20px;
+ }
+
+ .icon img{
+    width: 120px;
+    margin: 20px 0;
+ }
+
+ .actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+ }
+
+ button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+ }
+
+ .verify-btn{
+    background-color: #28a745;
+    color: white;
+ }
+
+ .next-btn{
+    background-color: #ccc;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    width: 180px;
+ }
+
+ .next-btn.active {
+    background-color: #ff4d4f;
+    width: 180px;
+ }
+
+ .box1{
+   padding: 5px 10px;
+   border-radius: 4px;
+   color: white;
+   background-color: #ff4d4f;
+ }
+
+ .box2{
+   padding: 5px 10px;
+   border-radius: 4px;
+   color: white;
+   background-color: silver;
+ }
+
+ .box3{
+   padding: 5px 10px;
+   border-radius: 4px;
+   color: #ff4d4f;
+   background-color: silver;
+ }

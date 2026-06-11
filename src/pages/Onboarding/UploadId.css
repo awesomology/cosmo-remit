@@ -1,0 +1,283 @@
+/* UploadId.css */
+
+body, html {
+  background-color: #ffffff !important;
+}
+
+.upload-id-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  padding: 0 20px 60px;
+}
+
+/* ── Step Indicator ── */
+.uid-steps {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  padding: 24px 0 16px;
+  margin-bottom: 0;
+}
+
+.uid-step {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.uid-step-label {
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  color: #999;
+  white-space: nowrap;
+}
+
+.uid-step-label.active {
+  font-weight: 700;
+  color: #111;
+}
+
+.uid-step-box {
+  width: 34px;
+  height: 34px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #E0E0E0;
+  color: #999;
+  flex-shrink: 0;
+}
+
+.uid-step-box.active {
+  background-color: #E8402A;
+  color: #ffffff;
+}
+
+.uid-step-box.completed {
+  background-color: #E0E0E0;
+  color: #999;
+}
+
+.uid-connector {
+  flex: 1;
+  height: 1px;
+  background-color: #E0E0E0;
+  margin: 0 16px;
+}
+
+.uid-divider {
+  width: 100%;
+  max-width: 700px;
+  height: 1px;
+  background-color: #E8E8E8;
+  margin-bottom: 40px;
+}
+
+/* ── Main Card ── */
+.upload-id-card {
+  width: 100%;
+  max-width: 700px;
+}
+
+/* ── Header ── */
+.uid-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.uid-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 10px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.uid-subtitle {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* ── Upload Area ── */
+.uid-upload-area {
+  border: 2px dashed #C0C0C0;
+  border-radius: 10px;
+  padding: 48px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s, background-color 0.2s;
+  background-color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.uid-upload-area:hover {
+  border-color: #E8402A;
+}
+
+.uid-upload-area.drag-over {
+  border-color: #E8402A;
+  background-color: #FFF5F5;
+}
+
+.uid-upload-area.has-file {
+  border-color: #28a745;
+  background-color: #F0FFF4;
+}
+
+.uid-upload-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+  color: #E8402A;
+}
+
+.uid-upload-icon.success {
+  color: #28a745;
+}
+
+.uid-upload-label {
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+  margin: 0 0 6px;
+  color: #333;
+}
+
+.uid-upload-label span {
+  color: #E8402A;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.uid-upload-filename {
+  font-size: 14px;
+  font-weight: 600;
+  color: #28a745;
+  margin: 0 0 4px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.uid-upload-hint {
+  font-size: 12px;
+  color: #aaa;
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* ── Form ── */
+.uid-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.uid-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.uid-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.uid-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #444;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.uid-input {
+  height: 48px;
+  padding: 0 14px;
+  background-color: #F0F0F0;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+  color: #333;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.uid-input::placeholder {
+  color: #aaa;
+}
+
+.uid-input:focus {
+  background-color: #E8E8E8;
+}
+
+/* ── Select ── */
+.uid-select-wrapper {
+  position: relative;
+}
+
+.uid-select {
+  width: 100%;
+  height: 48px;
+  padding: 0 40px 0 14px;
+  background-color: #F0F0F0;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+  color: #333;
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.uid-select-arrow {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #888;
+  display: flex;
+  align-items: center;
+}
+
+/* ── Next Button ── */
+.uid-next-btn {
+  width: 100%;
+  height: 52px;
+  background-color: #E8402A;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.uid-next-btn:hover {
+  opacity: 0.9;
+}
+
+.uid-next-btn:active {
+  opacity: 0.8;
+}

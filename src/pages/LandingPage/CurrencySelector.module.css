@@ -1,0 +1,68 @@
+.customSelect {
+  position: relative;
+  width: 30%;
+}
+
+.selectTrigger {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #3E2828;
+  color: white;
+  font-weight: 500;
+  line-height: 100%;
+  position: relative;
+  /* width: 30%; */
+  padding: 15px;
+  padding-bottom: 14px;
+  font-size: 16px;
+  border-radius: 0 15px 15px 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.flagIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  /* border-radius: 50%; */
+}
+
+.selectOptions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  /* background: white; */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-top: 4px;
+  padding: 0;
+  list-style: none;
+  z-index: 100;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.selectOption {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.selectOption:hover {
+  background: #f5f5f5;
+}
+
+.arrow {
+  margin-left: auto;
+  transition: transform 0.2s ease;
+  color: #ffffff;  /* Dark gray color */
+}
+
+.arrowUp {
+  transform: rotate(180deg);
+  color: #E91908;  /* Red when open */
+}

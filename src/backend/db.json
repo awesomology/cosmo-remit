@@ -1,0 +1,357 @@
+{
+  "users": [
+    {
+      "firstName": "John",
+      "lastName": "Chidera",
+      "country": "Nigeria",
+      "email": "mail@mail.com",
+      "phone": "8139299382",
+      "password": "DELL@1234",
+      "id": "aYDg7qGfhvA",
+      "transactionPin": "1111"
+    },
+    {
+      "firstName": "Johnson",
+      "lastName": "Maria",
+      "country": "USA",
+      "email": "maria@gmail.com",
+      "phone": "08067123450",
+      "password": "DELL@1234",
+      "id": "ieqH5f5KHWM",
+      "transactionPin": "2014"
+    },
+    {
+      "firstName": "Joy",
+      "lastName": "Peace",
+      "country": "China",
+      "email": "joy@gmail.com",
+      "phone": "07067123450",
+      "password": "DELL@1234",
+      "id": "h11_hPIT2-o"
+    },
+    {
+      "firstName": "Joy",
+      "lastName": "Peace",
+      "country": "Nigeria",
+      "email": "joyy@gmail.com",
+      "phone": "11111111111",
+      "password": "07067123450@Dera",
+      "id": "utPnRAEPKhE",
+      "transactionPin": "1111"
+    },
+    {
+      "firstName": "Charles",
+      "lastName": "Atula",
+      "country": "Dr Congo",
+      "email": "charles@gmail.com",
+      "phone": "0000000000",
+      "password": "DELL@1234",
+      "id": "-rgBKuk8D6s",
+      "transactionPin": "1111"
+    },
+    {
+      "firstName": "Kuale",
+      "lastName": "Abraham",
+      "country": "Nigeria",
+      "email": "kuale@gmail.com",
+      "phone": "8139299382",
+      "password": "DELL@1234",
+      "id": "E-QHHsAt_cw",
+      "transactionPin": "2001"
+    },
+    {
+      "firstName": "Kola",
+      "lastName": "Ade",
+      "country": "Nigeria",
+      "email": "chijes81@gmail.com",
+      "phone": "08139299382",
+      "password": "DELL@1234",
+      "id": "Tuq7C8aDXXs",
+      "transactionPin": "2004"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "country": "Nigeria",
+      "email": "pholocommedia@gmail.com",
+      "phone": "08139299382",
+      "password": "DELL@1234",
+      "id": "NsSnWZttuqo",
+      "transactionPin": "2001"
+    },
+    {
+      "firstName": "Charles",
+      "lastName": "Atula",
+      "country": "Nigeria",
+      "email": "atulacharles167@gmail.com",
+      "phone": "07052690153",
+      "password": "Awesome16yeah!",
+      "id": "wSfTbn1QmL8",
+      "transactionPin": "1111"
+    }
+  ],
+  "beneficiaries": [
+    {
+      "userId": "-rgBKuk8D6s",
+      "accountName": "Orji Chidera John",
+      "bank": "First Bank Plc",
+      "accountNumber": "3200716399",
+      "bankLocation": "Nigeria",
+      "id": "yX-zKC-NLQg"
+    },
+    {
+      "userId": "aYDg7qGfhvA",
+      "accountName": "Okeke",
+      "bank": "Joy",
+      "accountNumber": "3120186721",
+      "bankLocation": "Nigeria",
+      "id": "IdvZxHkJDDc"
+    },
+    {
+      "userId": "aYDg7qGfhvA",
+      "accountName": "John",
+      "bank": "Does",
+      "accountNumber": "2222222222",
+      "bankLocation": "China",
+      "id": "1TLz5l7FQhU"
+    },
+    {
+      "userId": "E-QHHsAt_cw",
+      "accountName": "John",
+      "bank": "UBA",
+      "accountNumber": "1111111111",
+      "bankLocation": "Nigeria",
+      "id": "ZyvUWJZCZTA"
+    },
+    {
+      "userId": "wSfTbn1QmL8",
+      "accountName": "Charles",
+      "bank": "Access Bank",
+      "accountNumber": "0100002321",
+      "bankLocation": "Lagos",
+      "id": "jUY510AH2ak"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn001",
+      "reference": "6764567892902",
+      "amountSent": "US 200",
+      "rate": "1,700",
+      "channel": "Bank transfer",
+      "recipient": "Muhammed Muktar",
+      "status": "Successful",
+      "userId": "aYDg7qGfhvA",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "txn002",
+      "reference": "6764567892903",
+      "amountSent": "US 150",
+      "rate": "1,650",
+      "channel": "Bank transfer",
+      "recipient": "Joy Peace",
+      "status": "Pending",
+      "userId": "aYDg7qGfhvA",
+      "date": "2026-05-19"
+    },
+    {
+      "id": "txn003",
+      "reference": "6764567892904",
+      "amountSent": "US 500",
+      "rate": "1,720",
+      "channel": "Bank transfer",
+      "recipient": "Johnson Maria",
+      "status": "Failed",
+      "userId": "aYDg7qGfhvA",
+      "date": "2026-05-18"
+    },
+    {
+      "userId": "-rgBKuk8D6s",
+      "reference": "O3W0BNQS3GO",
+      "amountSent": "500 UK",
+      "rate": "1 UK = 1700 NGN",
+      "channel": "Bank transfer",
+      "recipient": "Aisha Ibrahim",
+      "bankName": "Access Bank",
+      "accountNumber": "9876543210",
+      "amountReceived": "NGN 850,000",
+      "fee": "0",
+      "date": "2026-05-22",
+      "completedOn": "22 May 2026. 08:22",
+      "status": "Successful",
+      "id": "qaEXHKHXglo"
+    },
+    {
+      "userId": "-rgBKuk8D6s",
+      "reference": "X204OS5M3O8",
+      "amountSent": "500 UK",
+      "rate": "1 UK = 1700 NGN",
+      "channel": "Bank transfer",
+      "recipient": "Orji Chidera John",
+      "bankName": "First Bank Plc",
+      "accountNumber": "3200716399",
+      "amountReceived": "NGN 850,000",
+      "fee": "0",
+      "date": "2026-05-22",
+      "completedOn": "22 May 2026. 08:45",
+      "status": "Successful",
+      "id": "HGmaxkWiXcY"
+    },
+    {
+      "userId": "-rgBKuk8D6s",
+      "reference": "DDY0NKTJX5M",
+      "amountSent": "500 UK",
+      "rate": "1 UK = 1700 NGN",
+      "channel": "Bank transfer",
+      "recipient": "Orji Chidera John",
+      "bankName": "First Bank Plc",
+      "accountNumber": "3200716399",
+      "amountReceived": "NGN 850,000",
+      "fee": "0",
+      "date": "2026-05-22",
+      "completedOn": "22 May 2026. 08:47",
+      "status": "Successful",
+      "id": "_fvioWvcF1c"
+    },
+    {
+      "userId": "-rgBKuk8D6s",
+      "reference": "FQSX3CX1B6",
+      "amountSent": "500 UK",
+      "rate": "1 UK = 1700 NGN",
+      "channel": "Bank transfer",
+      "recipient": "Orji Chidera John",
+      "bankName": "First Bank Plc",
+      "accountNumber": "3200716399",
+      "amountReceived": "NGN 850,000",
+      "fee": "0",
+      "date": "2026-05-22",
+      "completedOn": "22 May 2026. 08:48",
+      "status": "Successful",
+      "id": "qtKx17g0YvQ"
+    },
+    {
+      "userId": "aYDg7qGfhvA",
+      "reference": "MS6MI2J4JVP",
+      "amountSent": "500 UK",
+      "rate": "1 UK = 1700 NGN",
+      "channel": "Bank transfer",
+      "recipient": "Okeke",
+      "bankName": "Joy",
+      "accountNumber": "3120186721",
+      "amountReceived": "NGN 850,000",
+      "fee": "0",
+      "date": "2026-05-24",
+      "completedOn": "24 May 2026. 05:35",
+      "status": "Successful",
+      "id": "l64hNJoK1zA"
+    },
+    {
+      "userId": "aYDg7qGfhvA",
+      "reference": "DUQUWI42NQ6",
+      "amountSent": "500 UK",
+      "rate": "1 UK = 1700 NGN",
+      "channel": "Bank transfer",
+      "recipient": "Okeke",
+      "bankName": "Joy",
+      "accountNumber": "3120186721",
+      "amountReceived": "NGN 850,000",
+      "fee": "0",
+      "date": "2026-05-24",
+      "completedOn": "24 May 2026. 06:17",
+      "status": "Successful",
+      "id": "YMEZbnRXLlU"
+    },
+    {
+      "userId": "aYDg7qGfhvA",
+      "reference": "JCA8WV2OC29",
+      "amountSent": "500 UK",
+      "rate": "1 UK = 1700 NGN",
+      "channel": "Bank transfer",
+      "recipient": "John",
+      "bankName": "Does",
+      "accountNumber": "2222222222",
+      "amountReceived": "NGN 850,000",
+      "fee": "0",
+      "date": "2026-05-25",
+      "completedOn": "25 May 2026. 07:11",
+      "status": "Successful",
+      "id": "tYYpgEhs-ww"
+    },
+    {
+      "userId": "aYDg7qGfhvA",
+      "reference": "YM01ZK5O2M",
+      "amountSent": "500 UK",
+      "rate": "1 UK = 1700 NGN",
+      "channel": "Bank transfer",
+      "recipient": "John",
+      "bankName": "Does",
+      "accountNumber": "2222222222",
+      "amountReceived": "NGN 850,000",
+      "fee": "0",
+      "date": "2026-06-01",
+      "completedOn": "1 June 2026. 16:32",
+      "status": "Successful",
+      "id": "oLeiq7r34aw"
+    },
+    {
+      "userId": "E-QHHsAt_cw",
+      "reference": "YCADRB3M5TM",
+      "amountSent": "500 UK",
+      "rate": "1 UK = 1700 NGN",
+      "channel": "Bank transfer",
+      "recipient": "John",
+      "bankName": "UBA",
+      "accountNumber": "1111111111",
+      "amountReceived": "NGN 850,000",
+      "fee": "0",
+      "date": "2026-06-02",
+      "completedOn": "2 June 2026. 12:26",
+      "status": "Successful",
+      "id": "U8JhCeFFus0"
+    },
+    {
+      "userId": "wSfTbn1QmL8",
+      "reference": "YDYSAX2B1AA",
+      "amountSent": "500000 UK",
+      "rate": "1 UK = 1700 NGN",
+      "channel": "Bank transfer",
+      "recipient": "Charles",
+      "bankName": "Access Bank",
+      "accountNumber": "0100002321",
+      "amountReceived": "NGN 850,000,000",
+      "fee": "0",
+      "date": "2026-06-11",
+      "completedOn": "11 June 2026. 11:09",
+      "status": "Successful",
+      "id": "mNXCib26KHs"
+    }
+  ],
+  "limitRequests": [
+    {
+      "userId": "aYDg7qGfhvA",
+      "reason": "Investment purposes",
+      "requestedLimit": "30000",
+      "status": "Pending",
+      "date": "2026-06-02",
+      "id": "Bs6lRRGC8jE"
+    },
+    {
+      "userId": "Tuq7C8aDXXs",
+      "reason": "Investment purposes",
+      "requestedLimit": "2000000",
+      "status": "Pending",
+      "date": "2026-06-04",
+      "id": "EXDEW8RyWEc"
+    },
+    {
+      "userId": "wSfTbn1QmL8",
+      "reason": "Personal needs",
+      "requestedLimit": "100000",
+      "status": "Pending",
+      "date": "2026-06-11",
+      "id": "K36Udrj5S9w"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
