@@ -82,7 +82,7 @@ const EnterPin = () => {
 
     try {
       // Step 1 — Verify PIN against JSON Server
-      const response = await fetch(`http://localhost:3001/users/${user.id}`)
+      const response = await fetch(`https://cosmo-remit-api.onrender.com/users/${user.id}`)
       const userData = await response.json()
 
       if (userData.transactionPin !== pin) {
@@ -97,7 +97,7 @@ const EnterPin = () => {
       const details = JSON.parse(sessionStorage.getItem("transferDetails") || "{}")
 
       // Step 3 — Save transaction to JSON Server
-      const txRes = await fetch("http://localhost:3001/transactions", {
+      const txRes = await fetch("https://cosmo-remit-api.onrender.com/transactions", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

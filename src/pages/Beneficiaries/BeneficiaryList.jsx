@@ -46,7 +46,7 @@ export default function Beneficiary() {
       setLoading(true)
       setError("")
       try {
-        const res = await fetch(`http://localhost:3001/beneficiaries?userId=${user.id}`)
+        const res = await fetch(`https://cosmo-remit-api.onrender.com/beneficiaries?userId=${user.id}`)
         if (!res.ok) throw new Error("Failed to fetch")
         const data = await res.json()
         setBeneficiaries(data)
@@ -66,7 +66,7 @@ export default function Beneficiary() {
 
     setDeletingId(id)
     try {
-      const res = await fetch(`http://localhost:3001/beneficiaries/${id}`, {
+      const res = await fetch(`https://cosmo-remit-api.onrender.com/beneficiaries/${id}`, {
         method: "DELETE",
       })
       if (res.ok) {

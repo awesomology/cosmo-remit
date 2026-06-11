@@ -94,7 +94,7 @@ export default function ConfirmTransactionPin() {
 
     try {
       // Save PIN to JSON Server against the user's account
-      const response = await fetch(`http://localhost:3001/users/${user.id}`, {
+      const response = await fetch(`https://cosmo-remit-api.onrender.com/users/${user.id}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ transactionPin: confirmPin }),

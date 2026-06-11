@@ -67,7 +67,7 @@ const SignIn = () => {
     try {
       // Check user credentials against JSON Server
       const response = await fetch(
-        `http://localhost:3001/users?email=${email}&password=${password}`
+        `https://cosmo-remit-api.onrender.com/users?email=${email}&password=${password}`
       )
       const users = await response.json()
 

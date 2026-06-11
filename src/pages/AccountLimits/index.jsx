@@ -38,7 +38,7 @@ export default function AccountLimits() {
     setError("")
 
     try {
-      const res = await fetch("http://localhost:3001/limitRequests", {
+      const res = await fetch("https://cosmo-remit-api.onrender.com/limitRequests", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

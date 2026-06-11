@@ -131,7 +131,7 @@ const SignUp = () => {
     try {
       // Check if email already exists
       const checkResponse = await fetch(
-        `http://localhost:3001/users?email=${form.email}`
+        `https://cosmo-remit-api.onrender.com/users?email=${form.email}`
       )
       const existingUsers = await checkResponse.json()
 
@@ -142,7 +142,7 @@ const SignUp = () => {
       }
 
       // Save new user to JSON Server
-      const response = await fetch("http://localhost:3001/users", {
+      const response = await fetch("https://cosmo-remit-api.onrender.com/users", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

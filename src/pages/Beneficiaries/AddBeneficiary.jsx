@@ -92,7 +92,7 @@ export default function AddBeneficiary() {
     setError("")
 
     try {
-      const res = await fetch("http://localhost:3001/beneficiaries", {
+      const res = await fetch("https://cosmo-remit-api.onrender.com/beneficiaries", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

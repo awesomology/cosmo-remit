@@ -76,8 +76,8 @@ const Dashboard = () => {
       try {
         // Fetch transactions and beneficiaries in parallel
         const [txRes, benRes] = await Promise.all([
-          fetch(`http://localhost:3001/transactions?userId=${user.id}`),
-          fetch(`http://localhost:3001/beneficiaries?userId=${user.id}`),
+          fetch(`https://cosmo-remit-api.onrender.com/transactions?userId=${user.id}`),
+          fetch(`https://cosmo-remit-api.onrender.com/beneficiaries?userId=${user.id}`),
         ])
 
         const transactions = await txRes.json()

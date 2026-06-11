@@ -35,7 +35,7 @@ const Transfer = () => {
     const fetchBeneficiaries = async () => {
       setLoadingBeneficiaries(true)
       try {
-        const res = await fetch(`http://localhost:3001/beneficiaries?userId=${user.id}`)
+        const res = await fetch(`https://cosmo-remit-api.onrender.com/beneficiaries?userId=${user.id}`)
         const data = await res.json()
         setBeneficiaries(data)
       } catch (err) {

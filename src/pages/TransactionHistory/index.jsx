@@ -74,7 +74,7 @@ export default function TransactionHistory() {
       setLoading(true)
       setError("")
       try {
-        const res = await fetch(`http://localhost:3001/transactions?userId=${user.id}`)
+        const res = await fetch(`https://cosmo-remit-api.onrender.com/transactions?userId=${user.id}`)
         if (!res.ok) throw new Error("Failed to fetch")
         const data = await res.json()
         setTransactions(data)
