@@ -35,6 +35,8 @@ import TransferSuccess from "../pages/Transfer/TransferSuccess"
 // ── Beneficiary Pages ─────────────────────────────
 import BeneficiaryList from "../pages/Beneficiaries/BeneficiaryList"
 import AddBeneficiary from "../pages/Beneficiaries/AddBeneficiary"
+import BeneficiaryDetails from "../pages/Beneficiaries/BeneficiaryDetails"
+import BeneficiaryEdit from "../pages/Beneficiaries/BeneficiaryEdit"
 
 // ── Account Limit Pages ───────────────────────────
 import AccountLimits from "../pages/AccountLimits/index"
@@ -95,6 +97,8 @@ const AppRoutes = () => {
         <Route path="/transfer" element={<Transfer />} />
         <Route path="/beneficiaries" element={<BeneficiaryList />} />
         <Route path="/beneficiaries/add" element={<AddBeneficiary />} />
+        <Route path="/beneficiaries/:id" element={<BeneficiaryDetails />} />
+        <Route path="/beneficiaries/:id/edit" element={<BeneficiaryEdit />} />
         <Route path="/limits" element={<AccountLimits />} />
         <Route path="/limits/upload-residence" element={<UploadResidence />} />
         <Route path="/limits/upload-proof-of-funds" element={<UploadProofOfFunds />} />
