@@ -1,4 +1,5 @@
-# This webpage can be accessed through [this link](https://cosmo-remit-app.netlify.app)
+# Webpage Access
+This webpage can be accessed through [this link](https://cosmo-remit-app.netlify.app)
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
